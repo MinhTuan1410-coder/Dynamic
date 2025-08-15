@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+#Header-logo{
+    text-align: center;
+}
+#Header-logo img{
+    width: 10%;
+}
+#Header-Banner ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    background-color: #a3a6a7;
+    padding: 15px;
+    margin: 0;
+}
+#Header-Banner a{
+    text-decoration: none;
+    color: white;
+}
+#Banner-content{
+    display: flex;
+    justify-content: center;
+}
+#Banner-content img{
+    width: 100%;
+}
+#Content-about{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+#Content-about .content-left{
+    width: 50%;
+    font-size: 130%;
+}
+#Content-about p{
+    text-align: justify;
+}
+#Content-about .content-right{
+    width: 40%;
+}
+#Content-about .content-right img{
+    width: 85%;
+}
+.service-title{
+    text-align: center;
+}
+#Detail-Service .Detail-up{
+display: flex;
+justify-content: center;
+gap:10px ;
+margin-bottom: 10px;
+
+}
+#Detail-Service .Detail-down{
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-bottom: 10px;
+}
+#Detail-Service img{
+    width: 50%;
+    padding: 10px;
+}
+#Detail-Service .item{
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+#Detail-Service .item a{
+    background-color: #04848a;
+    padding: 10px 15px;
+    color: white;
+}
+#Accessories-title {
+    text-align: center;
+}
+#Accessories-detail{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+#Accessories-detail .item{
+    width: 15%;
+    background-color: #a3a6a7;
+    padding: 20px;
+    height: 380px;
+}
+#Accessories-detail .item p{
+    font-size: 130%;
+}
+#Accessories-detail .item img{
+    width: 100%;
+}
+#remote img{
+    height: 72%;
+}
+#footer{
+    padding: 10px;
+    background-color: #717374;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
